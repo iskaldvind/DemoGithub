@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="user_avatar">
+        <item name="android:layout_height">@dimen/user_avatar_size</item>
+        <item name="android:layout_width">@dimen/user_avatar_size</item>
+        <item name="android:layout_marginTop">@dimen/user_avatar_margin_top</item>
+    </style>
+    <style name="user_name">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin_double</item>
+        <item name="android:textSize">@dimen/text_size_big</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="user_info_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin_quad</item>
+        <item name="android:layout_marginStart">@dimen/margin_oct</item>
+        <item name="android:layout_marginEnd">@dimen/margin_oct</item>
+    </style>
+    <style name="user_label">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">@dimen/user_info_label_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="user_button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginEnd">@dimen/margin_quad</item>
+        <item name="android:layout_marginBottom">@dimen/margin_quad</item>
+        <item name="android:backgroundTint">@color/primary_dark</item>
+    </style>
+    <style name="users_title">
+        <item name="android:layout_height">@dimen/users_title_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_big</item>
+        <item name="android:background">@color/primary_light</item>
+        <item name="android:elevation">@dimen/elevation</item>
+    </style>
+    <style name="user_list_item_card">
+        <item name="android:layout_height">@dimen/card_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:elevation">@dimen/elevation_small</item>
+    </style>
+    <style name="user_list_item_container">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">@dimen/margin_single</item>
+    </style>
+    <style name="user_list_item_avatar">
+        <item name="android:layout_height">@dimen/card_avatar_size</item>
+        <item name="android:layout_width">@dimen/card_avatar_size</item>
+    </style>
+    <style name="user_list_item_title">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/margin_double</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="user_list_item_subtitle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/margin_double</item>
+    </style>
+</resources>

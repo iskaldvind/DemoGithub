@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_big">18sp</dimen>
+    <dimen name="margin_single">8dp</dimen>
+    <dimen name="margin_double">16dp</dimen>
+    <dimen name="margin_quad">32dp</dimen>
+    <dimen name="margin_oct">64dp</dimen>
+    <dimen name="elevation">4dp</dimen>
+    <dimen name="elevation_small">2dp</dimen>
+    <dimen name="user_avatar_size">180dp</dimen>
+    <dimen name="user_avatar_margin_top">60dp</dimen>
+    <dimen name="user_info_label_size">100dp</dimen>
+    <dimen name="users_title_height">64dp</dimen>
+    <dimen name="card_height">80dp</dimen>
+    <dimen name="card_avatar_size">60dp</dimen>
+</resources>

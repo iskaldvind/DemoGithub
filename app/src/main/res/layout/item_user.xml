@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        style="@style/user_list_item_card"
+        android:background="@color/primary_light">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/container"
+            style="@style/user_list_item_container">
+            <ImageView
+                android:id="@+id/user_item_avatar"
+                style="@style/user_list_item_avatar"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                tools:ignore="ContentDescription" />
+            <TextView
+                android:id="@+id/user_item_login"
+                android:layout_width="0dp"
+                style="@style/user_list_item_title"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@id/user_item_avatar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/user_item_id"
+                app:layout_constraintVertical_chainStyle="packed"/>
+            <TextView
+                android:id="@+id/user_item_id"
+                android:layout_width="0dp"
+                style="@style/user_list_item_subtitle"
+                app:layout_constraintTop_toBottomOf="@id/user_item_login"
+                app:layout_constraintStart_toEndOf="@id/user_item_avatar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>
